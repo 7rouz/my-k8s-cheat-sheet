@@ -10,10 +10,10 @@
 *yaml*
 ``` kubectl get <resource> <resource-name> -o yaml```
 
-### label a ressource
+### label a resource
 ``` kubectl label <resource> <resource-name> <label-key>=<label-value> ```
 
-### remove a label from a ressource
+### remove a label from a resource
 ``` kubectl label <resource> <resource-name> <label-key>-```
 
 ### adding a role to a node 
