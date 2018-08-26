@@ -1,6 +1,14 @@
 # my-k8s-cheat-sheet
 
 ## Cluster managing 
+### get resource description
+
+``` kubectl get <resource> <resource-name> ```
+
+``` kubectl describe <resource> <resource-name> ```
+
+*yaml*
+``` kubectl get <resource> <resource-name> -o yaml```
 
 ### label a ressource
 ``` kubectl label <resource> <resource-name> <label-key>=<label-value> ```
